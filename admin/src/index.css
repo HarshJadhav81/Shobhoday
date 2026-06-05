@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #000000;
+  --color-secondary: #ffffff;
+}
+
+body {
+  background-color: #f3f4f6; /* light gray for admin panel background */
+  color: #111827; /* dark text */
+}

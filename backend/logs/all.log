@@ -1,0 +1,210 @@
+2026-06-05 01:06:36:636 warn: MongoDB disconnected
+2026-06-05 01:15:14:1514 warn: MongoDB disconnected
+2026-06-05 01:17:03:173 info: MongoDB Connected: ac-njpnity-shard-00-00.xuiy0ve.mongodb.net
+2026-06-05 01:17:03:173 info: Server running in development mode on port 5001
+2026-06-05 01:17:40:1740 error: Cannot set property query of #<IncomingMessage> which has only a getter
+2026-06-05 01:17:40:1740 http: GET / 500 5.253 ms - 1063
+2026-06-05 01:17:40:1740 error: Cannot set property query of #<IncomingMessage> which has only a getter
+2026-06-05 01:17:40:1740 http: GET /favicon.ico 500 1.148 ms - 1063
+2026-06-05 01:17:52:1752 error: Cannot set property query of #<IncomingMessage> which has only a getter
+2026-06-05 01:17:52:1752 http: GET /api/categories?limit=6&isActive=true 500 3.034 ms - 1063
+2026-06-05 01:17:52:1752 error: Cannot set property query of #<IncomingMessage> which has only a getter
+2026-06-05 01:17:52:1752 http: GET /api/products?limit=8&isActive=true 500 0.950 ms - 1063
+2026-06-05 01:17:53:1753 error: Cannot set property query of #<IncomingMessage> which has only a getter
+2026-06-05 01:17:53:1753 http: GET /api/categories?limit=6&isActive=true 500 1.643 ms - 1063
+2026-06-05 01:17:53:1753 error: Cannot set property query of #<IncomingMessage> which has only a getter
+2026-06-05 01:17:53:1753 http: GET /api/products?limit=8&isActive=true 500 0.847 ms - 1063
+2026-06-05 01:18:01:181 error: Cannot set property query of #<IncomingMessage> which has only a getter
+2026-06-05 01:18:01:181 http: GET /api/products?limit=8&isActive=true&categorySlug=mens 500 1.744 ms - 1063
+2026-06-05 01:18:02:182 error: Cannot set property query of #<IncomingMessage> which has only a getter
+2026-06-05 01:18:02:182 http: GET /api/products?limit=8&isActive=true&categorySlug=mens 500 2.392 ms - 1063
+2026-06-05 01:18:04:184 error: Cannot set property query of #<IncomingMessage> which has only a getter
+2026-06-05 01:18:04:184 http: GET /api/products?isActive=true 500 1.503 ms - 1063
+2026-06-05 01:18:05:185 error: Cannot set property query of #<IncomingMessage> which has only a getter
+2026-06-05 01:18:05:185 http: GET /api/products?isActive=true 500 2.302 ms - 1063
+2026-06-05 01:20:31:2031 error: Cannot set property query of #<IncomingMessage> which has only a getter
+2026-06-05 01:20:31:2031 http: GET /api/categories?limit=6&isActive=true 500 1.327 ms - 1063
+2026-06-05 01:20:31:2031 error: Cannot set property query of #<IncomingMessage> which has only a getter
+2026-06-05 01:20:31:2031 http: GET /api/products?limit=8&isActive=true 500 0.756 ms - 1063
+2026-06-05 01:20:32:2032 error: Cannot set property query of #<IncomingMessage> which has only a getter
+2026-06-05 01:20:32:2032 http: GET /api/categories?limit=6&isActive=true 500 1.971 ms - 1063
+2026-06-05 01:20:32:2032 error: Cannot set property query of #<IncomingMessage> which has only a getter
+2026-06-05 01:20:32:2032 http: GET /api/products?limit=8&isActive=true 500 1.487 ms - 1063
+2026-06-05 01:27:40:2740 error: Cannot set property query of #<IncomingMessage> which has only a getter
+2026-06-05 01:27:40:2740 http: GET /api/categories?limit=6&isActive=true 500 1.274 ms - 1063
+2026-06-05 01:27:40:2740 error: Cannot set property query of #<IncomingMessage> which has only a getter
+2026-06-05 01:27:40:2740 http: GET /api/products?limit=8&isActive=true 500 0.690 ms - 1063
+2026-06-05 01:27:41:2741 error: Cannot set property query of #<IncomingMessage> which has only a getter
+2026-06-05 01:27:41:2741 http: GET /api/categories?limit=6&isActive=true 500 0.865 ms - 1063
+2026-06-05 01:27:41:2741 error: Cannot set property query of #<IncomingMessage> which has only a getter
+2026-06-05 01:27:41:2741 http: GET /api/products?limit=8&isActive=true 500 0.528 ms - 1063
+2026-06-05 01:27:44:2744 error: Cannot set property query of #<IncomingMessage> which has only a getter
+2026-06-05 01:27:44:2744 http: GET /api/products?isActive=true 500 0.864 ms - 1063
+2026-06-05 01:27:45:2745 error: Cannot set property query of #<IncomingMessage> which has only a getter
+2026-06-05 01:27:45:2745 http: GET /api/products?isActive=true 500 2.467 ms - 1063
+2026-06-05 01:27:47:2747 error: Cannot set property query of #<IncomingMessage> which has only a getter
+2026-06-05 01:27:47:2747 http: GET /api/categories?limit=6&isActive=true 500 1.218 ms - 1063
+2026-06-05 01:27:47:2747 error: Cannot set property query of #<IncomingMessage> which has only a getter
+2026-06-05 01:27:47:2747 http: GET /api/products?limit=8&isActive=true 500 0.684 ms - 1063
+2026-06-05 01:27:48:2748 error: Cannot set property query of #<IncomingMessage> which has only a getter
+2026-06-05 01:27:48:2748 http: GET /api/categories?limit=6&isActive=true 500 1.988 ms - 1063
+2026-06-05 01:27:48:2748 error: Cannot set property query of #<IncomingMessage> which has only a getter
+2026-06-05 01:27:48:2748 http: GET /api/products?limit=8&isActive=true 500 1.108 ms - 1063
+2026-06-05 01:28:07:287 error: Cannot set property query of #<IncomingMessage> which has only a getter
+2026-06-05 01:28:07:287 http: GET /api/products?isActive=true 500 0.902 ms - 1063
+2026-06-05 01:28:08:288 error: Cannot set property query of #<IncomingMessage> which has only a getter
+2026-06-05 01:28:08:288 http: GET /api/products?isActive=true 500 2.004 ms - 1063
+2026-06-05 01:28:10:2810 error: Cannot set property query of #<IncomingMessage> which has only a getter
+2026-06-05 01:28:10:2810 http: GET /api/categories?limit=6&isActive=true 500 1.083 ms - 1063
+2026-06-05 01:28:10:2810 error: Cannot set property query of #<IncomingMessage> which has only a getter
+2026-06-05 01:28:10:2810 http: GET /api/products?limit=8&isActive=true 500 0.563 ms - 1063
+2026-06-05 01:28:11:2811 error: Cannot set property query of #<IncomingMessage> which has only a getter
+2026-06-05 01:28:11:2811 http: GET /api/categories?limit=6&isActive=true 500 0.545 ms - 1063
+2026-06-05 01:28:11:2811 error: Cannot set property query of #<IncomingMessage> which has only a getter
+2026-06-05 01:28:11:2811 http: GET /api/products?limit=8&isActive=true 500 0.304 ms - 1063
+2026-06-05 01:29:14:2914 error: Cannot set property query of #<IncomingMessage> which has only a getter
+2026-06-05 01:29:14:2914 http: GET /api/categories?limit=6&isActive=true 500 1.375 ms - 1063
+2026-06-05 01:29:14:2914 error: Cannot set property query of #<IncomingMessage> which has only a getter
+2026-06-05 01:29:14:2914 http: GET /api/products?limit=8&isActive=true 500 0.625 ms - 1063
+2026-06-05 01:29:15:2915 error: Cannot set property query of #<IncomingMessage> which has only a getter
+2026-06-05 01:29:15:2915 http: GET /api/categories?limit=6&isActive=true 500 0.918 ms - 1063
+2026-06-05 01:29:15:2915 error: Cannot set property query of #<IncomingMessage> which has only a getter
+2026-06-05 01:29:15:2915 http: GET /api/products?limit=8&isActive=true 500 0.740 ms - 1063
+2026-06-05 01:29:32:2932 error: Cannot set property query of #<IncomingMessage> which has only a getter
+2026-06-05 01:29:32:2932 http: GET /api/products?isActive=true 500 0.995 ms - 1063
+2026-06-05 01:29:33:2933 error: Cannot set property query of #<IncomingMessage> which has only a getter
+2026-06-05 01:29:33:2933 http: GET /api/products?isActive=true 500 1.934 ms - 1063
+2026-06-05 01:29:34:2934 error: Cannot set property query of #<IncomingMessage> which has only a getter
+2026-06-05 01:29:34:2934 http: GET /api/categories?limit=6&isActive=true 500 1.340 ms - 1063
+2026-06-05 01:29:34:2934 error: Cannot set property query of #<IncomingMessage> which has only a getter
+2026-06-05 01:29:34:2934 http: GET /api/products?limit=8&isActive=true 500 0.666 ms - 1063
+2026-06-05 01:29:35:2935 error: Cannot set property query of #<IncomingMessage> which has only a getter
+2026-06-05 01:29:35:2935 http: GET /api/categories?limit=6&isActive=true 500 1.866 ms - 1063
+2026-06-05 01:29:35:2935 error: Cannot set property query of #<IncomingMessage> which has only a getter
+2026-06-05 01:29:35:2935 http: GET /api/products?limit=8&isActive=true 500 1.518 ms - 1063
+2026-06-05 01:32:27:3227 error: Cannot set property query of #<IncomingMessage> which has only a getter
+2026-06-05 01:32:27:3227 http: GET /api/categories?limit=6&isActive=true 500 1.482 ms - 1063
+2026-06-05 01:32:27:3227 error: Cannot set property query of #<IncomingMessage> which has only a getter
+2026-06-05 01:32:27:3227 http: GET /api/products?limit=8&isActive=true 500 0.585 ms - 1063
+2026-06-05 01:32:28:3228 error: Cannot set property query of #<IncomingMessage> which has only a getter
+2026-06-05 01:32:28:3228 http: GET /api/categories?limit=6&isActive=true 500 2.022 ms - 1063
+2026-06-05 01:32:28:3228 error: Cannot set property query of #<IncomingMessage> which has only a getter
+2026-06-05 01:32:28:3228 http: GET /api/products?limit=8&isActive=true 500 0.683 ms - 1063
+2026-06-05 01:32:36:3236 error: Cannot set property query of #<IncomingMessage> which has only a getter
+2026-06-05 01:32:36:3236 http: GET /api/products?isActive=true 500 1.156 ms - 1063
+2026-06-05 01:32:37:3237 error: Cannot set property query of #<IncomingMessage> which has only a getter
+2026-06-05 01:32:37:3237 http: GET /api/products?isActive=true 500 2.336 ms - 1063
+2026-06-05 01:33:18:3318 info: 👋 SIGTERM RECEIVED. Shutting down gracefully
+2026-06-05 01:33:18:3318 info: 💥 Process terminated!
+2026-06-05 01:35:01:351 info: MongoDB Connected: ac-njpnity-shard-00-01.xuiy0ve.mongodb.net
+2026-06-05 01:35:01:351 info: Server running in development mode on port 5001
+2026-06-05 01:35:59:3559 info: MongoDB Connected: ac-njpnity-shard-00-02.xuiy0ve.mongodb.net
+2026-06-05 01:35:59:3559 info: Server running in development mode on port 5001
+2026-06-05 01:37:09:379 http: GET /api/products?isActive=true 401 5.838 ms - 43
+2026-06-05 01:37:11:3711 http: GET /api/products?isActive=true 401 2.396 ms - 43
+2026-06-05 01:38:16:3816 http: GET /api/products?isActive=true 401 1.707 ms - 43
+2026-06-05 01:38:17:3817 http: GET /api/products?isActive=true 401 1.328 ms - 43
+2026-06-05 01:38:48:3848 info: 👋 SIGTERM RECEIVED. Shutting down gracefully
+2026-06-05 01:38:48:3848 info: 💥 Process terminated!
+2026-06-05 01:40:13:4013 info: MongoDB Connected: ac-njpnity-shard-00-00.xuiy0ve.mongodb.net
+2026-06-05 01:40:13:4013 info: Server running in development mode on port 5001
+2026-06-05 01:40:27:4027 http: GET /api/products?isActive=true 401 6.092 ms - 43
+2026-06-05 01:40:27:4027 http: POST /api/auth/refresh 401 9.105 ms - 28
+2026-06-05 01:40:28:4028 http: GET /api/products?isActive=true 401 0.855 ms - 43
+2026-06-05 01:40:28:4028 http: POST /api/auth/refresh 401 0.695 ms - 28
+2026-06-05 01:42:06:426 http: GET /api/products?isActive=true 401 1.038 ms - 43
+2026-06-05 01:42:06:426 http: POST /api/auth/refresh 401 0.954 ms - 28
+2026-06-05 01:42:07:427 http: GET /api/products?isActive=true 401 1.209 ms - 43
+2026-06-05 01:42:07:427 http: POST /api/auth/refresh 401 0.934 ms - 28
+2026-06-05 01:45:14:4514 info: 👋 SIGTERM RECEIVED. Shutting down gracefully
+2026-06-05 01:45:14:4514 info: 💥 Process terminated!
+2026-06-05 10:12:12:1212 info: MongoDB Connected: ac-njpnity-shard-00-01.xuiy0ve.mongodb.net
+2026-06-05 10:12:12:1212 info: Server running in development mode on port 5001
+2026-06-05 10:14:16:1416 http: GET /api/categories?limit=6&isActive=true 200 501.220 ms - -
+2026-06-05 10:14:16:1416 http: GET /api/products?limit=8&isActive=true 200 497.911 ms - -
+2026-06-05 10:45:46:4546 http: GET /api/categories?limit=6&isActive=true 304 664.688 ms - -
+2026-06-05 10:45:46:4546 http: GET /api/products?limit=8&isActive=true 304 663.454 ms - -
+2026-06-05 10:47:42:4742 http: GET /api/products?limit=8&isActive=true 200 129.359 ms - -
+2026-06-05 10:47:42:4742 http: GET /api/categories?limit=6&isActive=true 200 128.041 ms - -
+2026-06-05 10:49:57:4957 http: GET /api/products?limit=8&isActive=true 200 132.851 ms - -
+2026-06-05 10:49:57:4957 http: GET /api/categories?limit=6&isActive=true 304 146.327 ms - -
+2026-06-05 10:50:06:506 http: GET /api/categories?limit=6&isActive=true 200 139.490 ms - -
+2026-06-05 10:50:06:506 http: GET /api/products?limit=8&isActive=true 304 140.989 ms - -
+2026-06-05 10:52:48:5248 http: GET /api/products?limit=8&isActive=true 200 961.620 ms - 124
+2026-06-05 10:52:48:5248 http: GET /api/categories?limit=6&isActive=true 200 965.511 ms - 126
+2026-06-05 10:54:40:5440 http: POST /api/auth/login 200 909.533 ms - 355
+2026-06-05 10:55:54:5554 http: POST /api/auth/login 200 427.645 ms - 355
+2026-06-05 10:57:06:576 http: GET /api/products?isActive=true 200 120.773 ms - 125
+2026-06-05 10:57:14:5714 http: GET /api/categories?limit=6&isActive=true 304 113.852 ms - -
+2026-06-05 10:57:14:5714 http: GET /api/products?limit=8&isActive=true 304 121.013 ms - -
+2026-06-05 10:57:20:5720 http: POST /api/auth/login 200 368.540 ms - 355
+2026-06-05 11:02:19:219 http: POST /api/auth/login 200 351.104 ms - 355
+2026-06-05 11:02:19:219 error: Can't find /api/users?limit=1 on this server!
+2026-06-05 11:02:19:219 http: GET /api/users?limit=1 500 1.264 ms - 979
+2026-06-05 11:02:19:219 error: Can't find /api/users?limit=1 on this server!
+2026-06-05 11:02:19:219 http: GET /api/users?limit=1 500 0.783 ms - 979
+2026-06-05 11:02:20:220 http: GET /api/products?limit=1 200 123.164 ms - 124
+2026-06-05 11:02:20:220 http: GET /api/orders?limit=5 500 201.498 ms - 35
+2026-06-05 11:02:20:220 http: GET /api/products?limit=1 304 188.103 ms - -
+2026-06-05 11:02:20:220 http: GET /api/orders?limit=5 500 284.479 ms - 35
+2026-06-05 11:02:20:220 http: GET /api/inventory?limit=1000 500 767.745 ms - 35
+2026-06-05 11:02:20:220 http: GET /api/inventory?limit=1000 500 190.610 ms - 35
+2026-06-05 11:02:33:233 http: GET /api/products?limit=100 200 131.164 ms - 126
+2026-06-05 11:02:33:233 http: GET /api/products?limit=100 304 133.388 ms - -
+2026-06-05 11:02:37:237 http: GET /api/inventory?limit=100 500 220.673 ms - 35
+2026-06-05 11:02:37:237 http: GET /api/inventory?limit=100 500 200.599 ms - 35
+2026-06-05 11:02:49:249 http: GET /api/orders?limit=100 500 204.665 ms - 35
+2026-06-05 11:02:49:249 http: GET /api/orders?limit=100 500 188.012 ms - 35
+2026-06-05 11:03:04:34 http: GET /api/inventory?limit=100 500 212.488 ms - 35
+2026-06-05 11:03:04:34 http: GET /api/inventory?limit=100 500 183.698 ms - 35
+2026-06-05 11:03:07:37 http: GET /api/products?limit=100 304 130.103 ms - -
+2026-06-05 11:03:07:37 http: GET /api/products?limit=100 304 119.053 ms - -
+2026-06-05 11:03:10:310 http: GET /api/categories?limit=1000 200 168.094 ms - 129
+2026-06-05 11:03:10:310 http: GET /api/categories?limit=1000 304 123.568 ms - -
+2026-06-05 11:04:46:446 http: POST /api/media/upload 500 201.350 ms - 35
+2026-06-05 11:05:18:518 error: Can't find /api/users?limit=1 on this server!
+2026-06-05 11:05:18:518 http: GET /api/users?limit=1 500 1.809 ms - 979
+2026-06-05 11:05:18:518 error: Can't find /api/users?limit=1 on this server!
+2026-06-05 11:05:18:518 http: GET /api/users?limit=1 500 1.470 ms - 979
+2026-06-05 11:05:18:518 http: GET /api/products?limit=1 304 131.218 ms - -
+2026-06-05 11:05:18:518 http: GET /api/orders?limit=5 500 198.429 ms - 35
+2026-06-05 11:05:18:518 http: GET /api/inventory?limit=1000 500 196.360 ms - 35
+2026-06-05 11:05:18:518 http: GET /api/products?limit=1 304 134.472 ms - -
+2026-06-05 11:05:18:518 http: GET /api/orders?limit=5 500 199.724 ms - 35
+2026-06-05 11:05:18:518 http: GET /api/inventory?limit=1000 500 201.506 ms - 35
+2026-06-05 11:06:38:638 error: Can't find /api/users?limit=1 on this server!
+2026-06-05 11:06:38:638 http: GET /api/users?limit=1 500 0.960 ms - 979
+2026-06-05 11:06:38:638 error: Can't find /api/users?limit=1 on this server!
+2026-06-05 11:06:38:638 http: GET /api/users?limit=1 500 1.330 ms - 979
+2026-06-05 11:06:38:638 http: GET /api/products?limit=1 304 145.868 ms - -
+2026-06-05 11:06:38:638 http: GET /api/orders?limit=5 500 211.570 ms - 35
+2026-06-05 11:06:38:638 http: GET /api/inventory?limit=1000 500 224.358 ms - 35
+2026-06-05 11:06:38:638 http: GET /api/products?limit=1 304 138.078 ms - -
+2026-06-05 11:06:38:638 http: GET /api/orders?limit=5 500 217.905 ms - 35
+2026-06-05 11:06:38:638 http: GET /api/inventory?limit=1000 500 198.773 ms - 35
+2026-06-05 11:08:04:84 http: GET /api/products?limit=100 304 126.591 ms - -
+2026-06-05 11:08:04:84 http: GET /api/products?limit=100 304 141.377 ms - -
+2026-06-05 11:09:19:919 error: Can't find /api/users?limit=1 on this server!
+2026-06-05 11:09:19:919 http: GET /api/users?limit=1 500 0.884 ms - 979
+2026-06-05 11:09:19:919 error: Can't find /api/users?limit=1 on this server!
+2026-06-05 11:09:19:919 http: GET /api/users?limit=1 500 0.757 ms - 979
+2026-06-05 11:09:19:919 http: GET /api/products?limit=1 304 155.983 ms - -
+2026-06-05 11:09:19:919 http: GET /api/inventory?limit=1000 500 227.548 ms - 35
+2026-06-05 11:09:19:919 http: GET /api/orders?limit=5 500 246.806 ms - 35
+2026-06-05 11:09:19:919 http: GET /api/products?limit=1 304 174.531 ms - -
+2026-06-05 11:09:19:919 http: GET /api/inventory?limit=1000 500 257.605 ms - 35
+2026-06-05 11:09:19:919 http: GET /api/orders?limit=5 500 242.189 ms - 35
+2026-06-05 11:09:40:940 http: GET /api/products?limit=8&isActive=true 304 193.004 ms - -
+2026-06-05 11:09:40:940 http: GET /api/categories?limit=6&isActive=true 304 201.724 ms - -
+2026-06-05 11:09:58:958 http: GET /api/products?limit=8&isActive=true&categorySlug=mens 200 130.454 ms - 124
+2026-06-05 11:10:00:100 http: GET /api/products?limit=8&isActive=true&categorySlug=womens 200 134.239 ms - 124
+2026-06-05 11:10:02:102 http: GET /api/products?isActive=true 200 143.951 ms - -
+2026-06-05 11:12:16:1216 http: GET /api/products?isActive=true 304 141.923 ms - -
+2026-06-05 11:12:24:1224 http: GET /api/products?isActive=true 304 131.477 ms - -
+2026-06-05 11:12:27:1227 http: GET /api/categories?limit=6&isActive=true 200 122.250 ms - -
+2026-06-05 11:12:27:1227 http: GET /api/products?limit=8&isActive=true 200 135.035 ms - -
+2026-06-05 11:13:35:1335 http: GET /api/products?limit=8&isActive=true&categorySlug=mens 304 126.308 ms - -
+2026-06-05 11:13:37:1337 http: GET /api/products?limit=8&isActive=true&categorySlug=womens 304 146.771 ms - -
+2026-06-05 11:13:38:1338 http: GET /api/products?limit=8&isActive=true&categorySlug=accessories 200 126.885 ms - 124
+2026-06-05 11:15:43:1543 info: 👋 SIGTERM RECEIVED. Shutting down gracefully
+2026-06-05 11:15:43:1543 info: 💥 Process terminated!
