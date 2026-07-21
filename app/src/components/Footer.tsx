@@ -1,5 +1,5 @@
-import { Instagram, Facebook, Youtube, MapPin, ArrowUp } from 'lucide-react';
-import { useEffect, useRef, useState } from 'react';
+import { Instagram, Facebook, Youtube, MapPin } from 'lucide-react';
+import { useEffect, useRef } from 'react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 

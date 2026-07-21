@@ -1,4 +1,3 @@
-import React from 'react';
 import { SEOMeta } from '../../components/SEOMeta';
 
 export default function AccountDashboard() {
