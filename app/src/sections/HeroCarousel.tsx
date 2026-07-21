@@ -42,56 +42,60 @@ export default function HeroCarousel() {
     const inner = innerRef.current;
     if (!carousel || !inner) return;
 
-    const cards = inner.querySelectorAll<HTMLElement>('.carousel-card');
-    const cardImages = inner.querySelectorAll<HTMLElement>('.card-image img');
-
     const ctx = gsap.context(() => {
-      const tl = gsap.timeline({
-        scrollTrigger: {
-          trigger: carousel,
-          start: 'top top',
-          end: '+=300%',
-          pin: true,
-          scrub: 1.5,
-        },
-      });
+      const mm = gsap.matchMedia();
 
-      // Main carousel rotation
-      tl.fromTo(
-        inner,
-        { rotationY: 0, rotationZ: 3, rotationX: 3 },
-        { rotationY: -180, rotationZ: -3, rotationX: -3, ease: 'none' },
-        0
-      );
+      mm.add("(min-width: 768px)", () => {
+        const cards = inner.querySelectorAll<HTMLElement>('.carousel-card');
+        const cardImages = inner.querySelectorAll<HTMLElement>('.card-image img');
 
-      // Individual card scale/brightness
-      cards.forEach((card, i) => {
-        const angle = i * ROTATION_STEP;
-        const isFrontHalf = angle <= 180;
+        const tl = gsap.timeline({
+          scrollTrigger: {
+            trigger: carousel,
+            start: 'top top',
+            end: '+=300%',
+            pin: true,
+            scrub: 1.5,
+          },
+        });
 
+        // Main carousel rotation
         tl.fromTo(
-          card,
-          {
-            scale: isFrontHalf ? 1.2 : 0.7,
-            filter: isFrontHalf ? 'brightness(1.2)' : 'brightness(0.4)',
-          },
-          {
-            scale: isFrontHalf ? 0.7 : 1.2,
-            filter: isFrontHalf ? 'brightness(0.4)' : 'brightness(1.2)',
-            ease: 'none',
-          },
+          inner,
+          { rotationY: 0, rotationZ: 3, rotationX: 3 },
+          { rotationY: -180, rotationZ: -3, rotationX: -3, ease: 'none' },
           0
         );
-      });
 
-      // Inner image parallax
-      cardImages.forEach((img) => {
-        tl.fromTo(
-          img,
-          { yPercent: 40 },
-          { yPercent: -40, ease: 'none' },
-          0
-        );
+        // Individual card scale/brightness
+        cards.forEach((card, i) => {
+          const angle = i * ROTATION_STEP;
+          const isFrontHalf = angle <= 180;
+
+          tl.fromTo(
+            card,
+            {
+              scale: isFrontHalf ? 1.2 : 0.7,
+              filter: isFrontHalf ? 'brightness(1.2)' : 'brightness(0.4)',
+            },
+            {
+              scale: isFrontHalf ? 0.7 : 1.2,
+              filter: isFrontHalf ? 'brightness(0.4)' : 'brightness(1.2)',
+              ease: 'none',
+            },
+            0
+          );
+        });
+
+        // Inner image parallax
+        cardImages.forEach((img) => {
+          tl.fromTo(
+            img,
+            { yPercent: 40 },
+            { yPercent: -40, ease: 'none' },
+            0
+          );
+        });
       });
 
       // Hero text entrance animation
@@ -132,12 +136,23 @@ export default function HeroCarousel() {
         }}
       >
         {/* Grain overlay */}
-        <div className="grain-overlay" />
+        <div className="grain-overlay z-10" />
 
-        {/* Carousel Inner */}
+        {/* Static Background for Mobile */}
+        <div className="absolute inset-0 block md:hidden z-0">
+          <img 
+            src="/images/category-wedding.jpg" 
+            alt="Hero Background" 
+            className="w-full h-full object-cover"
+          />
+          <div className="absolute inset-0 bg-black/60" />
+        </div>
+
+        {/* Carousel Inner (Desktop Only) */}
         <div
           ref={innerRef}
           id="carousel-inner"
+          className="hidden md:block"
           style={{
             transformStyle: 'preserve-3d',
             width: '100%',
