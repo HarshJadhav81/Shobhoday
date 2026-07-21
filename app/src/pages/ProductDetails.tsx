@@ -5,6 +5,7 @@ import { SEOMeta } from '../components/SEOMeta';
 
 export default function ProductDetails() {
   const { slug } = useParams<{ slug: string }>();
+
   // Hardcoded product for static demo
   const product: any = {
     _id: '1',
@@ -19,6 +20,7 @@ export default function ProductDetails() {
       { size: 'L', color: 'Black', price: 3500, compareAtPrice: 5000, stock: 50 }
     ]
   };
+
 
   const [selectedImage, setSelectedImage] = useState(0);
   const [selectedSize, setSelectedSize] = useState('');
@@ -61,7 +63,6 @@ export default function ProductDetails() {
   const handleAddToCart = () => {
     alert("Added to cart! (Static Demo)");
   };
-
 
   if (!product) return <div className="py-32 text-center">Product not found</div>;
 

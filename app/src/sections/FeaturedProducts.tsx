@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from 'react';
+import { useState, useRef, useEffect } from 'react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { ProductCard } from '../components/ProductCard';
@@ -23,34 +23,34 @@ export default function FeaturedProducts() {
     { _id: '8', title: 'Casual Everyday', slug: 'casual-everyday', brand: 'Shobhoday', category: { name: 'Casual Wear' }, media: [{ secureUrl: '/images/hero-carousel-5.jpg' }], variants: [{ price: 2000, compareAtPrice: 3000 }] },
   ];
 
-  // Assuming you have categories to list in filters, hardcoding for now as requested by UI
   const filters = ['All', 'Mens', 'Womens', 'Accessories'];
 
+  // GSAP animation
   useEffect(() => {
-    if (products.length === 0) return;
+    if (products.length > 0) {
+      const el = sectionRef.current;
+      if (!el) return;
+      
+      const ctx = gsap.context(() => {
+        const cards = el.querySelectorAll('.product-card-wrapper');
+        if (cards.length > 0) {
+          gsap.from(cards, {
+            y: 40,
+            opacity: 0,
+            stagger: 0.08,
+            duration: 0.6,
+            ease: 'power3.out',
+            scrollTrigger: {
+              trigger: el,
+              start: 'top 75%',
+              toggleActions: 'play none none none',
+            },
+          });
+        }
+      }, el);
 
-    const el = sectionRef.current;
-    if (!el) return;
-
-    const ctx = gsap.context(() => {
-      const cards = el.querySelectorAll('.product-card-wrapper');
-      if (cards.length > 0) {
-        gsap.from(cards, {
-          y: 40,
-          opacity: 0,
-          stagger: 0.08,
-          duration: 0.6,
-          ease: 'power3.out',
-          scrollTrigger: {
-            trigger: el,
-            start: 'top 75%',
-            toggleActions: 'play none none none',
-          },
-        });
-      }
-    }, el);
-
-    return () => ctx.revert();
+      return () => ctx.revert();
+    }
   }, [products.length, activeFilter]);
 
   return (
@@ -80,7 +80,7 @@ export default function FeaturedProducts() {
             ref={gridRef}
             className="grid grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6"
           >
-            {products.filter(p => activeFilter === 'All' || p.category.name.includes(activeFilter)).slice(0, 8).map((product) => (
+            {products.filter((p: any) => activeFilter === 'All' || p.category?.name?.includes(activeFilter)).slice(0, 8).map((product: any) => (
               <div key={product._id} className="product-card-wrapper">
                 <ProductCard product={product} />
               </div>

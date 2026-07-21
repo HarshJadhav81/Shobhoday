@@ -18,8 +18,8 @@ export default function Layout() {
     <>
       {/* Custom Cursor removed */}
       <AnnouncementBar />
-      <Navbar />
-      <main className="min-h-screen pt-[120px]"> {/* Add padding for fixed navbar on inner pages */}
+      <Navbar transparentOnTop={false} />
+      <main className="min-h-screen">
         <Outlet />
       </main>
       <Footer />

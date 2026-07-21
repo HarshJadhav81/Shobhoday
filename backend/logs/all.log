@@ -208,3 +208,214 @@
 2026-06-05 11:13:38:1338 http: GET /api/products?limit=8&isActive=true&categorySlug=accessories 200 126.885 ms - 124
 2026-06-05 11:15:43:1543 info: 👋 SIGTERM RECEIVED. Shutting down gracefully
 2026-06-05 11:15:43:1543 info: 💥 Process terminated!
+2026-06-06 10:03:36:336 info: MongoDB Connected: ac-njpnity-shard-00-00.xuiy0ve.mongodb.net
+2026-06-06 10:03:36:336 info: Server running in development mode on port 5001
+2026-06-06 10:03:52:352 error: Can't find /api/cart?guestId=guest_k7nr8dou1scl59z3pufyfa on this server!
+2026-06-06 10:03:52:352 http: GET /api/cart?guestId=guest_k7nr8dou1scl59z3pufyfa 500 8.292 ms - -
+2026-06-06 10:03:53:353 error: Can't find /api/cart?guestId=guest_k7nr8dou1scl59z3pufyfa on this server!
+2026-06-06 10:03:53:353 http: GET /api/cart?guestId=guest_k7nr8dou1scl59z3pufyfa 500 2.544 ms - -
+2026-06-06 10:05:41:541 error: Can't find /api/cart?guestId=guest_k7nr8dou1scl59z3pufyfa on this server!
+2026-06-06 10:05:41:541 http: GET /api/cart?guestId=guest_k7nr8dou1scl59z3pufyfa 500 4.073 ms - -
+2026-06-06 10:05:42:542 error: Can't find /api/cart?guestId=guest_k7nr8dou1scl59z3pufyfa on this server!
+2026-06-06 10:05:42:542 http: GET /api/cart?guestId=guest_k7nr8dou1scl59z3pufyfa 500 2.711 ms - -
+2026-06-06 10:08:11:811 error: Can't find /api/cart?guestId=guest_k7nr8dou1scl59z3pufyfa on this server!
+2026-06-06 10:08:11:811 http: GET /api/cart?guestId=guest_k7nr8dou1scl59z3pufyfa 500 2.003 ms - -
+2026-06-06 10:08:12:812 error: Can't find /api/cart?guestId=guest_k7nr8dou1scl59z3pufyfa on this server!
+2026-06-06 10:08:12:812 http: GET /api/cart?guestId=guest_k7nr8dou1scl59z3pufyfa 500 0.736 ms - -
+2026-06-06 10:08:29:829 error: Can't find /api/cart?guestId=guest_k7nr8dou1scl59z3pufyfa on this server!
+2026-06-06 10:08:29:829 http: GET /api/cart?guestId=guest_k7nr8dou1scl59z3pufyfa 500 1.212 ms - -
+2026-06-06 10:08:31:831 error: Can't find /api/cart?guestId=guest_k7nr8dou1scl59z3pufyfa on this server!
+2026-06-06 10:08:31:831 http: GET /api/cart?guestId=guest_k7nr8dou1scl59z3pufyfa 500 2.663 ms - -
+2026-06-06 10:08:32:832 error: Can't find /api/cart?guestId=guest_k7nr8dou1scl59z3pufyfa on this server!
+2026-06-06 10:08:32:832 http: GET /api/cart?guestId=guest_k7nr8dou1scl59z3pufyfa 500 2.498 ms - -
+2026-06-06 10:08:33:833 error: Can't find /api/cart?guestId=guest_k7nr8dou1scl59z3pufyfa on this server!
+2026-06-06 10:08:33:833 http: GET /api/cart?guestId=guest_k7nr8dou1scl59z3pufyfa 500 2.681 ms - -
+2026-06-06 10:12:30:1230 error: Can't find /api/cart?guestId=guest_u8mn8gxixtcu0w9n4xk7d on this server!
+2026-06-06 10:12:30:1230 http: GET /api/cart?guestId=guest_u8mn8gxixtcu0w9n4xk7d 500 1.864 ms - -
+2026-06-06 10:12:31:1231 error: Can't find /api/cart?guestId=guest_u8mn8gxixtcu0w9n4xk7d on this server!
+2026-06-06 10:12:31:1231 http: GET /api/cart?guestId=guest_u8mn8gxixtcu0w9n4xk7d 500 1.317 ms - -
+2026-06-06 10:21:20:2120 error: Can't find /api/cart?guestId=guest_ntbzn5hjufb0ax1c183zw on this server!
+2026-06-06 10:21:20:2120 http: GET /api/cart?guestId=guest_ntbzn5hjufb0ax1c183zw 500 1.793 ms - -
+2026-06-06 10:21:21:2121 error: Can't find /api/cart?guestId=guest_ntbzn5hjufb0ax1c183zw on this server!
+2026-06-06 10:21:21:2121 http: GET /api/cart?guestId=guest_ntbzn5hjufb0ax1c183zw 500 1.408 ms - -
+2026-06-06 10:21:32:2132 error: Can't find /api/cart?guestId=guest_hqpl41r7csq8ziumhv92n on this server!
+2026-06-06 10:21:32:2132 http: GET /api/cart?guestId=guest_hqpl41r7csq8ziumhv92n 500 1.656 ms - -
+2026-06-06 10:21:33:2133 error: Can't find /api/cart?guestId=guest_hqpl41r7csq8ziumhv92n on this server!
+2026-06-06 10:21:33:2133 http: GET /api/cart?guestId=guest_hqpl41r7csq8ziumhv92n 500 1.472 ms - -
+2026-06-06 10:22:40:2240 error: Can't find /api/cart?guestId=guest_hqpl41r7csq8ziumhv92n on this server!
+2026-06-06 10:22:40:2240 http: GET /api/cart?guestId=guest_hqpl41r7csq8ziumhv92n 500 1.138 ms - -
+2026-06-06 10:22:41:2241 error: Can't find /api/cart?guestId=guest_hqpl41r7csq8ziumhv92n on this server!
+2026-06-06 10:22:41:2241 http: GET /api/cart?guestId=guest_hqpl41r7csq8ziumhv92n 500 2.367 ms - -
+2026-06-06 10:22:43:2243 error: Can't find /api/cart?guestId=guest_hqpl41r7csq8ziumhv92n on this server!
+2026-06-06 10:22:43:2243 http: GET /api/cart?guestId=guest_hqpl41r7csq8ziumhv92n 500 2.127 ms - -
+2026-06-06 10:22:44:2244 error: Can't find /api/cart?guestId=guest_hqpl41r7csq8ziumhv92n on this server!
+2026-06-06 10:22:44:2244 http: GET /api/cart?guestId=guest_hqpl41r7csq8ziumhv92n 500 1.904 ms - -
+2026-06-06 10:23:22:2322 error: Can't find /api/cart?guestId=guest_hqpl41r7csq8ziumhv92n on this server!
+2026-06-06 10:23:22:2322 http: GET /api/cart?guestId=guest_hqpl41r7csq8ziumhv92n 500 1.638 ms - -
+2026-06-06 10:23:23:2323 error: Can't find /api/cart?guestId=guest_hqpl41r7csq8ziumhv92n on this server!
+2026-06-06 10:23:23:2323 http: GET /api/cart?guestId=guest_hqpl41r7csq8ziumhv92n 500 2.204 ms - -
+2026-06-06 10:23:41:2341 error: Can't find /api/cart?guestId=guest_hqpl41r7csq8ziumhv92n on this server!
+2026-06-06 10:23:41:2341 http: GET /api/cart?guestId=guest_hqpl41r7csq8ziumhv92n 500 1.442 ms - -
+2026-06-06 10:23:42:2342 error: Can't find /api/cart?guestId=guest_hqpl41r7csq8ziumhv92n on this server!
+2026-06-06 10:23:42:2342 http: GET /api/cart?guestId=guest_hqpl41r7csq8ziumhv92n 500 1.764 ms - -
+2026-06-06 10:27:19:2719 error: Can't find /api/cart?guestId=guest_hqpl41r7csq8ziumhv92n on this server!
+2026-06-06 10:27:19:2719 http: GET /api/cart?guestId=guest_hqpl41r7csq8ziumhv92n 500 1.319 ms - -
+2026-06-06 10:27:20:2720 error: Can't find /api/cart?guestId=guest_hqpl41r7csq8ziumhv92n on this server!
+2026-06-06 10:27:20:2720 http: GET /api/cart?guestId=guest_hqpl41r7csq8ziumhv92n 500 1.456 ms - -
+2026-06-06 10:27:22:2722 error: Can't find /api/cart?guestId=guest_hqpl41r7csq8ziumhv92n on this server!
+2026-06-06 10:27:22:2722 http: GET /api/cart?guestId=guest_hqpl41r7csq8ziumhv92n 500 1.679 ms - -
+2026-06-06 10:27:23:2723 error: Can't find /api/cart?guestId=guest_hqpl41r7csq8ziumhv92n on this server!
+2026-06-06 10:27:23:2723 http: GET /api/cart?guestId=guest_hqpl41r7csq8ziumhv92n 500 2.163 ms - -
+2026-06-06 10:28:30:2830 error: Can't find /api/cart?guestId=guest_hqpl41r7csq8ziumhv92n on this server!
+2026-06-06 10:28:30:2830 http: GET /api/cart?guestId=guest_hqpl41r7csq8ziumhv92n 500 0.937 ms - -
+2026-06-06 10:28:31:2831 error: Can't find /api/cart?guestId=guest_hqpl41r7csq8ziumhv92n on this server!
+2026-06-06 10:28:31:2831 http: GET /api/cart?guestId=guest_hqpl41r7csq8ziumhv92n 500 2.340 ms - -
+2026-06-06 10:28:55:2855 error: Can't find /api/cart?guestId=guest_hqpl41r7csq8ziumhv92n on this server!
+2026-06-06 10:28:55:2855 http: GET /api/cart?guestId=guest_hqpl41r7csq8ziumhv92n 500 1.485 ms - -
+2026-06-06 10:28:56:2856 error: Can't find /api/cart?guestId=guest_hqpl41r7csq8ziumhv92n on this server!
+2026-06-06 10:28:56:2856 http: GET /api/cart?guestId=guest_hqpl41r7csq8ziumhv92n 500 2.393 ms - -
+2026-06-06 10:29:16:2916 error: Can't find /api/cart?guestId=guest_hqpl41r7csq8ziumhv92n on this server!
+2026-06-06 10:29:16:2916 http: GET /api/cart?guestId=guest_hqpl41r7csq8ziumhv92n 500 1.879 ms - -
+2026-06-06 10:29:17:2917 error: Can't find /api/cart?guestId=guest_hqpl41r7csq8ziumhv92n on this server!
+2026-06-06 10:29:17:2917 http: GET /api/cart?guestId=guest_hqpl41r7csq8ziumhv92n 500 1.798 ms - -
+2026-06-06 10:29:44:2944 error: Can't find /api/cart?guestId=guest_hqpl41r7csq8ziumhv92n on this server!
+2026-06-06 10:29:44:2944 http: GET /api/cart?guestId=guest_hqpl41r7csq8ziumhv92n 500 1.819 ms - -
+2026-06-06 10:29:45:2945 error: Can't find /api/cart?guestId=guest_hqpl41r7csq8ziumhv92n on this server!
+2026-06-06 10:29:45:2945 http: GET /api/cart?guestId=guest_hqpl41r7csq8ziumhv92n 500 2.167 ms - -
+2026-06-06 11:04:34:434 error: Can't find /api/cart?guestId=guest_nri2iyswszm6uy30pp40x6 on this server!
+2026-06-06 11:04:34:434 http: GET /api/cart?guestId=guest_nri2iyswszm6uy30pp40x6 500 1.367 ms - -
+2026-06-06 11:04:35:435 error: Can't find /api/cart?guestId=guest_nri2iyswszm6uy30pp40x6 on this server!
+2026-06-06 11:04:35:435 http: GET /api/cart?guestId=guest_nri2iyswszm6uy30pp40x6 500 1.729 ms - -
+2026-06-06 11:05:51:551 error: Can't find /api/cart?guestId=guest_nam1tq8jb6ljuyay8idkf on this server!
+2026-06-06 11:05:51:551 http: GET /api/cart?guestId=guest_nam1tq8jb6ljuyay8idkf 500 1.703 ms - -
+2026-06-06 11:11:46:1146 warn: MongoDB disconnected
+2026-06-06 11:19:44:1944 warn: MongoDB disconnected
+2026-06-06 11:20:25:2025 warn: MongoDB disconnected
+2026-06-06 11:24:32:2432 warn: MongoDB disconnected
+2026-06-06 11:39:35:3935 warn: MongoDB disconnected
+2026-06-06 11:41:11:4111 error: Can't find /api/cart?guestId=guest_nam1tq8jb6ljuyay8idkf on this server!
+2026-06-06 11:41:11:4111 http: GET /api/cart?guestId=guest_nam1tq8jb6ljuyay8idkf 500 2.458 ms - -
+2026-06-06 11:43:41:4341 error: Can't find /api/cart?guestId=guest_nam1tq8jb6ljuyay8idkf on this server!
+2026-06-06 11:43:41:4341 http: GET /api/cart?guestId=guest_nam1tq8jb6ljuyay8idkf 500 2.015 ms - -
+2026-06-06 11:43:47:4347 warn: MongoDB disconnected
+2026-06-06 17:58:42:5842 info: MongoDB Connected: ac-njpnity-shard-00-02.xuiy0ve.mongodb.net
+2026-06-06 17:58:42:5842 info: Server running in development mode on port 5001
+2026-06-06 17:58:54:5854 error: Can't find /api/cart?guestId=guest_s088xp0pf5rc4r3dxm5vt7 on this server!
+2026-06-06 17:58:54:5854 http: GET /api/cart?guestId=guest_s088xp0pf5rc4r3dxm5vt7 500 8.734 ms - -
+2026-06-06 17:58:55:5855 error: Can't find /api/cart?guestId=guest_s088xp0pf5rc4r3dxm5vt7 on this server!
+2026-06-06 17:58:55:5855 http: GET /api/cart?guestId=guest_s088xp0pf5rc4r3dxm5vt7 500 2.854 ms - -
+2026-06-06 18:01:24:124 http: GET /api/orders?limit=5 401 1.792 ms - 50
+2026-06-06 18:01:24:124 http: GET /api/orders?limit=5 401 0.514 ms - 50
+2026-06-06 18:01:24:124 error: Can't find /api/users?limit=1 on this server!
+2026-06-06 18:01:24:124 http: GET /api/users?limit=1 500 0.571 ms - 979
+2026-06-06 18:01:24:124 error: Can't find /api/users?limit=1 on this server!
+2026-06-06 18:01:24:124 http: GET /api/users?limit=1 500 0.434 ms - 979
+2026-06-06 18:01:24:124 http: GET /api/inventory?limit=1000 401 0.408 ms - 50
+2026-06-06 18:01:24:124 http: GET /api/inventory?limit=1000 401 0.556 ms - 50
+2026-06-06 18:01:27:127 http: POST /api/auth/refresh - - ms - -
+2026-06-06 18:01:27:127 http: POST /api/auth/refresh - - ms - -
+2026-06-06 18:01:27:127 http: POST /api/auth/refresh - - ms - -
+2026-06-06 18:01:27:127 http: GET /api/products?limit=1 - - ms - -
+2026-06-06 18:01:27:127 http: POST /api/auth/refresh - - ms - -
+2026-06-06 18:01:27:127 http: GET /api/products?limit=1 - - ms - -
+2026-06-06 18:01:27:127 http: GET /api/orders?limit=5 401 0.761 ms - 50
+2026-06-06 18:01:27:127 http: GET /api/orders?limit=5 401 0.411 ms - 50
+2026-06-06 18:01:27:127 error: Can't find /api/users?limit=1 on this server!
+2026-06-06 18:01:27:127 http: GET /api/users?limit=1 500 0.537 ms - 979
+2026-06-06 18:01:27:127 http: GET /api/inventory?limit=1000 401 0.258 ms - 50
+2026-06-06 18:01:27:127 error: Can't find /api/users?limit=1 on this server!
+2026-06-06 18:01:27:127 http: GET /api/users?limit=1 500 0.338 ms - 979
+2026-06-06 18:01:27:127 http: GET /api/inventory?limit=1000 401 0.253 ms - 50
+2026-06-06 18:01:39:139 http: GET /api/products?limit=1 200 11513.705 ms - -
+2026-06-06 18:01:39:139 http: POST /api/auth/refresh 200 11757.584 ms - 244
+2026-06-06 18:01:39:139 http: POST /api/auth/refresh 200 11801.115 ms - 244
+2026-06-06 18:01:39:139 http: GET /api/products?limit=1 304 436.125 ms - -
+2026-06-06 18:01:39:139 http: POST /api/auth/refresh 401 12076.240 ms - 47
+2026-06-06 18:01:39:139 http: GET /api/orders?limit=5 500 314.503 ms - 35
+2026-06-06 18:01:39:139 http: POST /api/auth/refresh 401 12090.582 ms - 47
+2026-06-06 18:01:39:139 http: GET /api/orders?limit=5 - - ms - -
+2026-06-06 18:02:45:245 error: Can't find /api/cart?guestId=guest_b8ddyvvngcrqif0topo04a on this server!
+2026-06-06 18:02:45:245 http: GET /api/cart?guestId=guest_b8ddyvvngcrqif0topo04a 500 3.843 ms - -
+2026-06-06 18:02:53:253 error: Can't find /api/cart?guestId=guest_mqewm7nwm0pueipxnidlk on this server!
+2026-06-06 18:02:53:253 http: GET /api/cart?guestId=guest_mqewm7nwm0pueipxnidlk 500 1.969 ms - -
+2026-06-06 18:02:54:254 error: Can't find /api/cart?guestId=guest_mqewm7nwm0pueipxnidlk on this server!
+2026-06-06 18:02:54:254 http: GET /api/cart?guestId=guest_mqewm7nwm0pueipxnidlk 500 2.847 ms - -
+2026-06-06 18:03:46:346 error: Can't find /api/cart?guestId=guest_mqewm7nwm0pueipxnidlk on this server!
+2026-06-06 18:03:46:346 http: GET /api/cart?guestId=guest_mqewm7nwm0pueipxnidlk 500 3.101 ms - -
+2026-06-06 18:03:47:347 error: Can't find /api/cart?guestId=guest_mqewm7nwm0pueipxnidlk on this server!
+2026-06-06 18:03:47:347 http: GET /api/cart?guestId=guest_mqewm7nwm0pueipxnidlk 500 2.500 ms - -
+2026-06-06 18:03:49:349 error: Can't find /api/cart?guestId=guest_mqewm7nwm0pueipxnidlk on this server!
+2026-06-06 18:03:49:349 http: GET /api/cart?guestId=guest_mqewm7nwm0pueipxnidlk 500 1.437 ms - -
+2026-06-06 18:03:50:350 error: Can't find /api/cart?guestId=guest_mqewm7nwm0pueipxnidlk on this server!
+2026-06-06 18:03:50:350 http: GET /api/cart?guestId=guest_mqewm7nwm0pueipxnidlk 500 2.908 ms - -
+2026-06-06 18:04:01:41 error: Can't find /api/cart?guestId=guest_mqewm7nwm0pueipxnidlk on this server!
+2026-06-06 18:04:01:41 http: GET /api/cart?guestId=guest_mqewm7nwm0pueipxnidlk 500 0.837 ms - -
+2026-06-06 18:04:02:42 error: Can't find /api/cart?guestId=guest_mqewm7nwm0pueipxnidlk on this server!
+2026-06-06 18:04:02:42 http: GET /api/cart?guestId=guest_mqewm7nwm0pueipxnidlk 500 2.733 ms - -
+2026-06-06 18:04:04:44 error: Can't find /api/cart?guestId=guest_mqewm7nwm0pueipxnidlk on this server!
+2026-06-06 18:04:04:44 http: GET /api/cart?guestId=guest_mqewm7nwm0pueipxnidlk 500 1.537 ms - -
+2026-06-06 18:04:05:45 error: Can't find /api/cart?guestId=guest_mqewm7nwm0pueipxnidlk on this server!
+2026-06-06 18:04:05:45 http: GET /api/cart?guestId=guest_mqewm7nwm0pueipxnidlk 500 0.741 ms - -
+2026-06-06 18:04:51:451 error: Can't find /api/cart?guestId=guest_y0finlf1uwd9he053gintg on this server!
+2026-06-06 18:04:51:451 http: GET /api/cart?guestId=guest_y0finlf1uwd9he053gintg 500 1.551 ms - -
+2026-06-06 18:04:52:452 error: Can't find /api/cart?guestId=guest_y0finlf1uwd9he053gintg on this server!
+2026-06-06 18:04:52:452 http: GET /api/cart?guestId=guest_y0finlf1uwd9he053gintg 500 1.881 ms - -
+2026-06-06 18:05:46:546 error: Can't find /api/cart?guestId=guest_y0finlf1uwd9he053gintg on this server!
+2026-06-06 18:05:46:546 http: GET /api/cart?guestId=guest_y0finlf1uwd9he053gintg 500 1.606 ms - -
+2026-06-06 18:05:47:547 error: Can't find /api/cart?guestId=guest_y0finlf1uwd9he053gintg on this server!
+2026-06-06 18:05:47:547 http: GET /api/cart?guestId=guest_y0finlf1uwd9he053gintg 500 2.987 ms - -
+2026-06-06 18:07:45:745 error: Can't find /api/cart?guestId=guest_y0finlf1uwd9he053gintg on this server!
+2026-06-06 18:07:45:745 http: GET /api/cart?guestId=guest_y0finlf1uwd9he053gintg 500 0.655 ms - -
+2026-06-06 18:07:46:746 error: Can't find /api/cart?guestId=guest_y0finlf1uwd9he053gintg on this server!
+2026-06-06 18:07:46:746 http: GET /api/cart?guestId=guest_y0finlf1uwd9he053gintg 500 2.450 ms - -
+2026-06-06 18:08:08:88 error: Can't find /api/cart?guestId=guest_y0finlf1uwd9he053gintg on this server!
+2026-06-06 18:08:08:88 http: GET /api/cart?guestId=guest_y0finlf1uwd9he053gintg 500 1.494 ms - -
+2026-06-06 18:08:09:89 error: Can't find /api/cart?guestId=guest_y0finlf1uwd9he053gintg on this server!
+2026-06-06 18:08:09:89 http: GET /api/cart?guestId=guest_y0finlf1uwd9he053gintg 500 1.921 ms - -
+2026-06-06 18:09:53:953 http: POST /api/auth/login 200 455.695 ms - 350
+2026-06-06 18:09:53:953 error: Can't find /api/users?limit=1 on this server!
+2026-06-06 18:09:53:953 http: GET /api/users?limit=1 500 1.174 ms - 979
+2026-06-06 18:09:53:953 error: Can't find /api/users?limit=1 on this server!
+2026-06-06 18:09:53:953 http: GET /api/users?limit=1 500 1.247 ms - 979
+2026-06-06 18:09:53:953 http: GET /api/orders?limit=5 500 188.970 ms - 35
+2026-06-06 18:09:53:953 http: GET /api/inventory?limit=1000 500 215.632 ms - 35
+2026-06-06 18:09:53:953 http: GET /api/products?limit=1 304 216.967 ms - -
+2026-06-06 18:09:53:953 http: GET /api/inventory?limit=1000 500 148.988 ms - 35
+2026-06-06 18:09:53:953 http: GET /api/orders?limit=5 500 183.286 ms - 35
+2026-06-06 18:09:53:953 http: GET /api/products?limit=1 304 164.413 ms - -
+2026-06-06 18:09:59:959 http: GET /api/products?limit=100 200 306.951 ms - -
+2026-06-06 18:09:59:959 http: GET /api/products?limit=100 304 211.251 ms - -
+2026-06-06 18:10:08:108 http: GET /api/inventory?limit=100 500 1108.389 ms - 35
+2026-06-06 18:10:08:108 http: GET /api/inventory?limit=100 500 195.652 ms - 35
+2026-06-06 18:10:10:1010 http: GET /api/orders?limit=100 500 185.551 ms - 35
+2026-06-06 18:10:10:1010 http: GET /api/orders?limit=100 500 165.034 ms - 35
+2026-06-06 18:10:14:1014 error: Can't find /api/users?limit=1 on this server!
+2026-06-06 18:10:14:1014 http: GET /api/users?limit=1 500 1.475 ms - 979
+2026-06-06 18:10:14:1014 error: Can't find /api/users?limit=1 on this server!
+2026-06-06 18:10:14:1014 http: GET /api/users?limit=1 500 0.945 ms - 979
+2026-06-06 18:10:14:1014 http: GET /api/products?limit=1 304 164.529 ms - -
+2026-06-06 18:10:14:1014 http: GET /api/inventory?limit=1000 500 160.506 ms - 35
+2026-06-06 18:10:14:1014 http: GET /api/orders?limit=5 500 171.261 ms - 35
+2026-06-06 18:10:15:1015 http: GET /api/orders?limit=5 500 447.294 ms - 35
+2026-06-06 18:10:15:1015 http: GET /api/inventory?limit=1000 500 452.114 ms - 35
+2026-06-06 18:10:15:1015 http: GET /api/products?limit=1 304 457.788 ms - -
+2026-06-06 18:10:34:1034 error: Can't find /api/users?limit=1 on this server!
+2026-06-06 18:10:34:1034 http: GET /api/users?limit=1 500 0.883 ms - 979
+2026-06-06 18:10:34:1034 error: Can't find /api/users?limit=1 on this server!
+2026-06-06 18:10:34:1034 http: GET /api/users?limit=1 500 0.942 ms - 979
+2026-06-06 18:10:34:1034 http: GET /api/inventory?limit=1000 500 197.814 ms - 35
+2026-06-06 18:10:34:1034 http: GET /api/products?limit=1 304 202.779 ms - -
+2026-06-06 18:10:34:1034 http: GET /api/orders?limit=5 500 211.768 ms - 35
+2026-06-06 18:10:35:1035 http: GET /api/inventory?limit=1000 500 158.225 ms - 35
+2026-06-06 18:10:35:1035 http: GET /api/orders?limit=5 500 151.782 ms - 35
+2026-06-06 18:10:35:1035 http: GET /api/products?limit=1 304 155.800 ms - -
+2026-06-06 18:10:47:1047 error: Can't find /api/users?limit=1 on this server!
+2026-06-06 18:10:47:1047 http: GET /api/users?limit=1 500 1.024 ms - 979
+2026-06-06 18:10:47:1047 error: Can't find /api/users?limit=1 on this server!
+2026-06-06 18:10:47:1047 http: GET /api/users?limit=1 500 0.604 ms - 979
+2026-06-06 18:10:48:1048 http: GET /api/inventory?limit=1000 500 216.774 ms - 35
+2026-06-06 18:10:48:1048 http: GET /api/products?limit=1 304 219.967 ms - -
+2026-06-06 18:10:48:1048 http: GET /api/orders?limit=5 500 229.605 ms - 35
+2026-06-06 18:10:48:1048 http: GET /api/products?limit=1 304 185.823 ms - -
+2026-06-06 18:10:48:1048 http: GET /api/inventory?limit=1000 500 196.129 ms - 35
+2026-06-06 18:10:48:1048 http: GET /api/orders?limit=5 500 193.158 ms - 35

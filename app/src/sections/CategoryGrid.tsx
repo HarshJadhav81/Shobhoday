@@ -10,11 +10,12 @@ export default function CategoryGrid() {
   const sectionRef = useRef<HTMLElement>(null);
 
   const categories: any[] = [
-    { _id: '1', name: 'Wedding Collection', slug: 'wedding', description: 'Explore', thumbnailMedia: { secureUrl: '/images/category-wedding.jpg' } },
-    { _id: '2', name: 'Sherwani', slug: 'sherwani', description: 'Explore', thumbnailMedia: { secureUrl: '/images/category-sherwani.jpg' } },
-    { _id: '3', name: 'Kurta Sets', slug: 'kurta', description: 'Explore', thumbnailMedia: { secureUrl: '/images/category-kurta.jpg' } },
-    { _id: '4', name: 'Formal Wear', slug: 'formal', description: 'Explore', thumbnailMedia: { secureUrl: '/images/category-formal.jpg' } },
-    { _id: '5', name: 'Casual Wear', slug: 'casual', description: 'Explore', thumbnailMedia: { secureUrl: '/images/category-casual.jpg' } },
+    { _id: '1', name: 'Sherwani & Ethnic', slug: 'sherwani', subtitle: '120+ Styles', thumbnailMedia: { secureUrl: '/images/category-sherwani.jpg' }, tall: true },
+    { _id: '2', name: 'Formal Suits', slug: 'formal', subtitle: '80+ Styles', thumbnailMedia: { secureUrl: '/images/category-formal.jpg' } },
+    { _id: '3', name: 'Wedding Collection', slug: 'wedding', subtitle: '150+ Styles', thumbnailMedia: { secureUrl: '/images/category-wedding.jpg' }, tall: true },
+    { _id: '4', name: 'Casual Wear', slug: 'casual', subtitle: '200+ Styles', thumbnailMedia: { secureUrl: '/images/category-casual.jpg' } },
+    { _id: '5', name: 'Kurta Sets', slug: 'kurta', subtitle: '100+ Styles', thumbnailMedia: { secureUrl: '/images/category-kurta.jpg' } },
+    { _id: '6', name: 'Seasonal Sale', subtitle: 'Up to 50% Off', isSale: true, colSpan2: true },
   ];
 
   useEffect(() => {
@@ -57,11 +58,13 @@ export default function CategoryGrid() {
         />
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 auto-rows-[280px]">
-            {categories.map((cat, i) => (
+            {categories.map((cat) => (
               <CategoryCard 
                 key={cat._id} 
                 category={cat} 
-                tall={i === 0 || i === 3} // Make some cards tall for dynamic grid
+                tall={cat.tall}
+                isSale={cat.isSale}
+                colSpan2={cat.colSpan2}
               />
             ))}
           </div>

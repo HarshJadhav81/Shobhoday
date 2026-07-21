@@ -15,6 +15,9 @@ const Login = React.lazy(() => import('./pages/Login'));
 const Register = React.lazy(() => import('./pages/Register'));
 const Checkout = React.lazy(() => import('./pages/Checkout'));
 const PaymentSuccess = React.lazy(() => import('./pages/PaymentSuccess'));
+const About = React.lazy(() => import('./pages/About'));
+const FAQ = React.lazy(() => import('./pages/FAQ'));
+const PaymentFailed = React.lazy(() => import('./pages/PaymentFailed'));
 const AccountDashboard = React.lazy(() => import('./pages/account/AccountDashboard'));
 const OrderHistory = React.lazy(() => import('./pages/account/OrderHistory'));
 
@@ -33,7 +36,7 @@ export default function App() {
         <Route element={<Layout />}>
           {/* Public Routes */}
           <Route path={ROUTES.SHOP} element={<Shop />} />
-          <Route path="/category/:slug" element={<Shop />} />
+          <Route path="/shop/:slug" element={<Shop />} />
           <Route path="/product/:slug" element={<ProductDetails />} />
           <Route path={ROUTES.CART} element={<Cart />} />
           
@@ -48,15 +51,15 @@ export default function App() {
           <Route path="/order/:id" element={<ProtectedRoute><PlaceholderPage title="Order Details" /></ProtectedRoute>} />
           <Route path={ROUTES.CHECKOUT} element={<ProtectedRoute><Checkout /></ProtectedRoute>} />
           <Route path="/checkout/success" element={<ProtectedRoute><PaymentSuccess /></ProtectedRoute>} />
-          <Route path="/checkout/failure" element={<ProtectedRoute><PlaceholderPage title="Payment Failed" /></ProtectedRoute>} />
+          <Route path="/checkout/failure" element={<ProtectedRoute><PaymentFailed /></ProtectedRoute>} />
 
           {/* Placeholders for unimplemented public pages */}
           <Route path={ROUTES.COLLECTIONS} element={<PlaceholderPage title="Collections" />} />
           <Route path={ROUTES.OFFERS} element={<PlaceholderPage title="Offers" />} />
           <Route path={ROUTES.BLOGS} element={<PlaceholderPage title="Blogs" />} />
-          <Route path={ROUTES.ABOUT} element={<PlaceholderPage title="About Us" />} />
+          <Route path={ROUTES.ABOUT} element={<About />} />
           <Route path={ROUTES.CONTACT} element={<PlaceholderPage title="Contact Us" />} />
-          <Route path={ROUTES.FAQ} element={<PlaceholderPage title="FAQ" />} />
+          <Route path={ROUTES.FAQ} element={<FAQ />} />
         </Route>
 
         <Route path="*" element={<PlaceholderPage title="404 Not Found" />} />

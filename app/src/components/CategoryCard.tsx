@@ -1,16 +1,15 @@
 import { ArrowRight } from 'lucide-react';
-import type { Category } from '../types';
 import { Link } from 'react-router';
 
-export function CategoryCard({ category, tall = false, isSale = false }: { category: Category, tall?: boolean, isSale?: boolean }) {
+export function CategoryCard({ category, tall = false, isSale = false, colSpan2 = false }: { category: any, tall?: boolean, isSale?: boolean, colSpan2?: boolean }) {
   const imageUrl = category.thumbnailMedia?.secureUrl || 'https://via.placeholder.com/400x500';
 
   return (
     <Link
-      to={`/category/${category.slug}`}
+      to={isSale ? '/shop/sale' : `/shop/${category.slug}`}
       className={`category-card block group relative overflow-hidden ${
         tall ? 'md:row-span-2' : ''
-      } ${isSale ? 'bg-gold' : ''}`}
+      } ${colSpan2 ? 'md:col-span-2' : ''} ${isSale ? 'bg-[#c3a352]' : ''}`}
     >
       {!isSale && (
         <img
@@ -37,11 +36,10 @@ export function CategoryCard({ category, tall = false, isSale = false }: { categ
         </div>
         <div
           className={`font-body text-sm mb-3 ${
-            isSale ? 'text-charcoal/70' : 'text-ivory/70'
+            isSale ? 'text-charcoal/80 font-medium' : 'text-ivory/70'
           }`}
         >
-          {/* We don't have counts directly in Category schema, this can be fetched later or omitted */}
-          Explore
+          {category.subtitle || 'Explore'}
         </div>
         <div
           className={`inline-flex items-center gap-2 font-body text-[13px] uppercase tracking-[0.1em] transition-all duration-300 ${

@@ -1,19 +1,19 @@
 import { useState } from 'react';
-import PageLoader from '@/components/PageLoader';
-import AnnouncementBar from '@/components/AnnouncementBar';
-import Navbar from '@/components/Navbar';
-import WhatsAppButton from '@/components/WhatsAppButton';
-import HeroCarousel from '@/sections/HeroCarousel';
-import BrandTicker from '@/sections/BrandTicker';
-import CategoryGrid from '@/sections/CategoryGrid';
-import FeaturedProducts from '@/sections/FeaturedProducts';
-import BrandStory from '@/sections/BrandStory';
-import Lookbook from '@/sections/Lookbook';
-import Testimonials from '@/sections/Testimonials';
-import InstagramFeed from '@/sections/InstagramFeed';
-import Newsletter from '@/sections/Newsletter';
-import Footer from '@/components/Footer';
-import { useLenisInit } from '@/hooks/useLenis';
+import PageLoader from '../components/PageLoader';
+import AnnouncementBar from '../components/AnnouncementBar';
+import Navbar from '../components/Navbar';
+import WhatsAppButton from '../components/WhatsAppButton';
+import HeroCarousel from '../sections/HeroCarousel';
+import BrandTicker from '../sections/BrandTicker';
+import CategoryGrid from '../sections/CategoryGrid';
+import FeaturedProducts from '../sections/FeaturedProducts';
+import BrandStory from '../sections/BrandStory';
+import Lookbook from '../sections/Lookbook';
+import Testimonials from '../sections/Testimonials';
+import InstagramFeed from '../sections/InstagramFeed';
+import Newsletter from '../sections/Newsletter';
+import Footer from '../components/Footer';
+import { useLenisInit } from '../hooks/useLenis';
 
 export default function Home() {
   const [loaderComplete, setLoaderComplete] = useState(false);
@@ -31,7 +31,7 @@ export default function Home() {
       <AnnouncementBar />
       <Navbar />
 
-      <main>
+      <main className="-mt-[112px] relative z-0">
         <HeroCarousel />
         <BrandTicker />
         <CategoryGrid />

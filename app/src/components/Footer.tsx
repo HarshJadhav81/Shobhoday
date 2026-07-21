@@ -18,15 +18,6 @@ const footerLinks = {
 
 export default function Footer() {
   const footerRef = useRef<HTMLElement>(null);
-  const [showBackToTop, setShowBackToTop] = useState(false);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      setShowBackToTop(window.scrollY > 300);
-    };
-    window.addEventListener('scroll', handleScroll, { passive: true });
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
 
   useEffect(() => {
     const el = footerRef.current;
@@ -50,10 +41,6 @@ export default function Footer() {
 
     return () => ctx.revert();
   }, []);
-
-  const scrollToTop = () => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  };
 
   return (
     <footer ref={footerRef} className="bg-charcoal text-ivory">
@@ -196,16 +183,6 @@ export default function Footer() {
         </div>
       </div>
 
-      {/* Back to Top */}
-      <button
-        onClick={scrollToTop}
-        className={`fixed bottom-6 right-6 w-12 h-12 bg-gold text-charcoal rounded-full flex items-center justify-center shadow-lg transition-all duration-300 hover:scale-110 z-50 ${
-          showBackToTop ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4 pointer-events-none'
-        }`}
-        aria-label="Back to top"
-      >
-        <ArrowUp size={20} />
-      </button>
     </footer>
   );
 }

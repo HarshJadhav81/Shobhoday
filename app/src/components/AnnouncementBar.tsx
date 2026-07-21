@@ -42,7 +42,7 @@ export default function AnnouncementBar() {
 
   return (
     <div
-      className={`w-full bg-maroon text-ivory h-10 flex items-center justify-between px-4 transition-all duration-300 ${
+      className={`relative z-[101] w-full bg-maroon text-ivory h-10 flex items-center justify-between px-4 transition-all duration-300 ${
         isDismissing ? 'opacity-0 -translate-y-full' : 'opacity-100 translate-y-0'
       }`}
     >

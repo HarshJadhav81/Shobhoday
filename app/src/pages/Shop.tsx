@@ -35,7 +35,7 @@ export default function Shop() {
         <SectionHeader title={title} align="center" className="capitalize" />
         
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-6">
-            {products.filter(p => !slug || p.slug === slug).map((product) => (
+            {products.filter((p: any) => !slug || p.slug === slug).map((product: any) => (
               <ProductCard key={product._id} product={product} />
             ))}
           </div>
